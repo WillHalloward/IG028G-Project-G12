@@ -1,0 +1,353 @@
+body {
+  background-color: #5A5A5A;
+  font-family:verdana;
+}
+
+.bar {
+  height: 110%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #757575;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.bar a {
+  padding: 8px 8px 8px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #F0F0F0;
+  display: block;
+  transition: 0.3s;
+}
+
+.bar a:hover {
+  color: #D2A8F1;
+}
+
+.bar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.log{
+	
+	float:bottom;
+	background-color:#EC4E20;
+	font-size:15px;
+	color:white;
+	margin-top:525px;
+	
+}
+
+.sok{
+	background-color:white;
+	float:top;
+	color:grey;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin-left: 25px;
+	margin-right:25px;
+}
+.top-container {
+  background-color: #f1f1f1;
+  padding-left:150px;
+  text-align: center;
+}
+
+.header {
+  padding: 20px 70px;
+  background: #555;
+  color: #f1f1f1;
+  height:15px;
+  
+}
+
+.content {
+  padding: 16px;
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#introduktion {
+  background: url("file://C:/Users/Amanda/Desktop/projekt/Bilder/introduktion.jpg");
+  border-radius: 25px;
+  padding: 20px; 
+  width: 1000px;
+  height: 500px; 
+  margin-top:30px;
+  font-family:verdana;
+  font-size: 30px;
+  Color: white;
+  text-align: center;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#kategorier {
+  border-radius: 15px 50px; 
+  padding: 20px; 
+  width: 150px;
+  height: 150px; 
+  margin-top:30px;
+  font-family:verdana;
+  Color: white;
+  text-align:center;
+  line-height: 150px;
+}
+
+.matematik {
+	border:2px solid #EF959C;
+	background:url("file://C:/Users/Amanda/Desktop/Studierum/foto/matematik2.jpg");
+	float:left;
+	margin-left:500px;
+	font-size: 20px;
+}
+ .programmering{
+	border:2px solid #2DC2BD;
+	background:url("file://C:/Users/Amanda/Desktop/Studierum/foto/programmering.jpg");
+	float:left;
+	margin-left:30px;
+	font-size:17.5px;
+ }
+ .fysik{
+	border:2px solid #39A9DB;
+	background:url("file://C:/Users/Amanda/Desktop/Studierum/foto/fysik.jpg");
+	float:left;
+	margin-left:30px;
+	font-size: 20px;
+ }
+ .kemi{
+	border:2px solid #F39237;
+	background:url("file://C:/Users/Amanda/Desktop/Studierum/foto/kemi.jpg");
+	float:left;
+	margin-left:30px;
+	font-size: 20px;
+ }
+ 
+.cookies{
+	background-color:white;
+	color:black;
+	border-radius:15px;
+	width:500px;
+	height:75px;
+	float:right;
+	float:bottom;
+	margin-top:145px;
+	text-align:center;
+	line-height:35px;
+	font-family:verdana;
+	
+}
+
+.hem{
+	border-radius: 15px 50px;
+	background-color:#81A684;
+	border:2px solid #57886C;
+	color:#E2FCEF;
+	margin-top:25px;
+	margin-right:300px;
+	font-family:verdana;
+	height:50px;
+	width:150px;
+	float:top;
+	float:right;
+	text-align:center;
+	line-height: 50px;
+}
+
+.tillbaka{
+	border-radius: 15px 50px;
+	background-color:#E39695;
+	border:2px solid #DF7373;
+	color:#F7DCD9;
+	margin-top:25px;
+	margin-left:300px;
+	font-family:verdana;
+	height:50px;
+	width:150px;
+	float:top;
+	float:left;
+	text-align:center;
+	line-height: 50px;
+}
+
+.annan{
+	border-radius: 15px 50px;
+	background-color:#946E83;
+	border:2px solid #8E5E78;
+	color:white;
+	margin-top:50px;
+	margin-left:300px;
+	font-family:verdana;
+	height:25px;
+	width:100px;
+	float:top;
+	float:right;
+	text-align:center;
+	line-height: 25px;
+}
+
+a:link{
+	color:white;
+	font-family:verdana;
+	text-decoration:none;
+	
+}
+a:visited{
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover{
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:active{
+	color:white;
+	background-color: transparent;
+	text-decoration:none;
+}
+
+.amne{
+	font-family:verdana;
+	text-align:center;
+	letter-spacing: 2px;
+	color:#E8E8E8;
+	margin-left:80px;
+	
+}
+
+#s-amne {
+  border-radius: 15px 50px; 
+  padding: 20px; 
+  width: 150px;
+  height: 150px; 
+  font-family:verdana;
+  Color: white;
+  text-align:center;
+  line-height: 150px;
+  margin-top:40px;
+  letter-spacing:2px;
+  font-size:25px;
+  float:left;
+  margin-left:30px;
+}
+
+.allmant{
+	background-color:rgba(238,118,116,0.7);
+	border: 4px solid #DC6D6B;
+}
+
+.inlagg{
+	background-color:#82667F;
+	border-radius: 20px;
+	border: 2px solid #B486AB;
+	height:250px;
+	width:175px;
+	margin: 30px;
+	line-height:30px;
+	text-align:center;
+	font-size: 15px;
+	float:left;
+
+	
+}
+
+.s-bar{
+	border-radius: 15px 45px; 
+	background-color:white;
+	width:150px;
+	height:20px;
+	float: right;
+	float:top;
+	margin-right:10px;
+	margin-top:-10px;
+}
+
+.post{
+	background-color:#B486AB;
+	border-radius:20px;
+	border: 2px solid #82667F;
+	height:950px;
+	width:1300px;
+	text-align:center;
+	line-height:50px;
+	margin-left:350px;
+	margin-right:400px;
+}
+
+.x{
+	font-size:30px;
+	float:top;
+	float:right;
+	color:black;
+	margin-right:15px;
+}
+
+.q{
+	background-color:#EAC0D4;
+	border-radius:20px;
+	border:2px solid #DFAEB4;
+	text-align:center;
+	line-height:50px;
+	width: 1100;
+	height:200px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:40px;
+}
+
+.s{
+	background-color:#EAC0D4;
+	border-radius:20px;
+	border:2px solid #DFAEB4;
+	text-align:center;
+	line-height:50px;
+	width: 600px;
+	height:100px;
+	margin-top:40px;
+	float:right;
+	margin-right:100px;
+}
+.fs{
+	background-color:#B3D89C;
+	border-radius:20px;
+	border:2px solid #629677;
+	text-align:center;
+	line-height:50px;
+	width: 600px;
+	height:100px;
+	margin-top:40px;
+	float:right;
+	margin-right:100px;
+}

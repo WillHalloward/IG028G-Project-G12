@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header" id="myHeader">
+<div class="s-bar"></div>
+<div class="s-bar"></div>
+<p style="font-family:verdana; float:right; float:top; margin-right:-300px; font-size:10px"><a href ="#";">Glömt lösenord</a></p>
+</div>
+<div id="bar">
+  <span style="font-size:25px; cursor:pointer; position:fixed; margin-left:5px; margin-top:0px;"onclick="openNav()">&#9776; </span> 
+  <p style="font-size:25px; color:#E8E8E8; margin-left:45px; margin-top:15px;">Meny </div>
+
+<div id="menu" class="bar">
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Matematik</a>
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Programmering</a>
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Fysik</a>
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Kemi</a>
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Biologi</a>
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Svenska</a>
+  <a href="C:/Users/Amanda/Desktop/Studierum/genre.html">Samhällskunskap</a>
+  
+  <div class="log"> <a href="#">Logga in/Skapa Konto </div>
+</div>
+<div class="hem"><a href="C:/Users/Amanda/Desktop/projekt/Studierum.html"> Hem </a></div>
+<div class="tillbaka"><a href="C:/Users/Amanda/Desktop/projekt/s-genre.html"> Tillbaka</a></div>
+<div class="amne" style="font-size:50px;">Forum</div>
+<div class="amne" style="margin-top:10px;">Här kan du ställa frågor och svara andra användares funderingar. </div>
+
+<div class="inlagg" style="margin-left:500px;"><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<div class="inlagg" ><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<div class="inlagg" ><a href=C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<div class="inlagg" style="margin-right:400px;"><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+
+<div class="inlagg" style="margin-left:500px;"><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<div class="inlagg" ><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<div class="inlagg" ><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<div class="inlagg" style="margin-right:400px;"><a href="C:/Users/Amanda/Desktop/Studierum/thread.html">mememe</a></div>
+<script>
+
+function openNav() {
+  document.getElementById("menu").style.width = "300px";
+  document.getElementById("bar").style.marginLeft = "0px";
+}
+
+function closeNav() {
+  document.getElementById("menu").style.width = "0";
+  document.getElementById("bar").style.marginLeft= "0";
+}
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+   
+</body>
+</html> 
