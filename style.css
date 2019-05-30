@@ -1,6 +1,6 @@
 body {
   background-color: #5A5A5A;
-  font-family:verdana;
+	font-family: verdana, serif;
 }
 
 .bar {
@@ -94,10 +94,10 @@ body {
 }
 
 #introduktion {
-  background: url("file://C:/Users/ortez/Desktop/m/foto/introduktion.jpg");
+  background: url("foto/introduktion.jpg");
   border-radius: 25px;
   padding: 20px; 
-  width: 5s0%;
+  width: 50%;
   height: 300px; 
   margin-top:30px;
   font-family:verdana;
@@ -112,7 +112,7 @@ body {
   font-size: 15px;
   Color: white;
   text-align: center;
-  font-weight:bold;s
+  font-weight:bold;
 }
 
 .center {
@@ -135,49 +135,49 @@ body {
 
 .matematik {
 	border:2px solid #EF959C;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/matematik2.jpg");
+	background:url("foto/matematik2.jpg");
 	float:left;
 	margin-left:20%;
 	font-size: 20px;
 }
  .programmering{
 	border:2px solid #2DC2BD;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/programmering.jpg");
+	background:url("foto/programmering.jpg");
 	float:left;
 	margin-left:2%;
 	font-size:17.5px;
  }
  .fysik{
 	border:2px solid #39A9DB;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/fysik.jpg");
+	background:url("foto/fysik.jpg");
 	float:left;
 	margin-left:2%;
 	font-size: 20px;
  }
  .kemi{
 	border:2px solid #F39237;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/kemi.jpg");
+	background:url("foto/kemi.jpg");
 	float:left;
 	margin-left:2%;
 	font-size: 20px;
  }
  .biologi{
 	border:2px solid #64B6AC;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/biologi.jpg");
+	background:url("foto/biologi.jpg");
 	float:left;
 	margin-left:20%;
 	font-size: 20px;
  }
  .svenska{
 	border:2px solid #7C3238;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/svenska.jpg");
+	background:url("foto/svenska.jpg");
 	float:left;
 	margin-left:2%;
 	font-size:20px;
  }
  .samhalle{
 	border:2px solid #C45675;
-	background:url("file://C:/Users/ortez/Desktop/m/foto/samhälle.jpg");
+	background:url("foto/samhälle.jpg");
 	float:left;
 	margin-left:2%;
 	font-size:20px;
@@ -206,7 +206,7 @@ body {
 	margin-top:25px;
 	margin-right:300px;
 	font-family:verdana;
-	height:10%px;
+	height:10%;
 	width:10%;
 	float:top;
 	float:right;
