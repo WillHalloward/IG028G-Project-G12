@@ -8,28 +8,13 @@
 </head>
 <body>
 
-<div>
-    <?php
-        if (isset($_SESSION['anvandarid'])) {
-            echo '<form action="includes/logout.inc.php" method="Post"> <button type="submit" name="logout-submit">Logga ut</button> </form>';
-    } else {
-    echo '<form action="includes/login.inc.php" method="Post">
-    <input type="text" name="anvandarnamn" placeholder = "Anvandarnamn">
-    <input type="password" name="losenord" placeholder = "losenord">
-    <button type="submit" name="login-submit">Logga in</button> </form>
-    <a href="skapa_användare.php">Skapa anvandare</a> ';
-    }
-    ?>
-</div>
+<!--<?php include 'login.php'; ?>-->
 
-<!--
 <div class="huvud" id="Huvud">
     <div class="s-bar"></div>
     <div class="s-bar"></div>
-    <p style="font-family:verdana,serif; float:right; float:top; margin-right:-22%; font-size:10px"><a href="#">Glömt
-        lösenord</a></p>
+    <p style="font-family:verdana; float:right; float:top; margin-right:-300px; font-size:10px"><a href="#">Glömt lösenord</a></p>
 </div>
--->
 <div id="bar">
     <span style="font-size:25px; cursor:pointer; position:fixed; margin-left:1%; margin-top:0;" onclick="openNav()">&#9776; </span>
     <p style="font-size:25px; color:#E8E8E8; position:fixed; margin-left:45px; margin-top:0;">Meny</div>
