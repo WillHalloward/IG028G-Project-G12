@@ -11,16 +11,16 @@
 <div class="huvud" id="Huvud">
     <div class="s-bar"></div>
     <div class="s-bar"></div>
-    <p style="font-family:verdana; float:right; float:top; margin-right:-300px; font-size:10px"><a href="#">Glömt lösenord</a></p>
+    <p style="font-family:verdana,serif; float:right; margin-right:-300px; font-size:10px"><a href="#">Glömt lösenord</a></p>
 </div>
 <div id="bar">
-    <span style="font-size:25px; cursor:pointer; position:fixed; margin-left:5px; margin-top:0px;" onclick="openNav()">&#9776; </span>
+    <span style="font-size:25px; cursor:pointer; position:fixed; margin-left:5px; margin-top:0;" onclick="openNav()">&#9776; </span>
     <p style="font-size:25px; color:#E8E8E8; position:fixed; margin-left:45px; margin-top:0;">Meny</div>
 
 <div id="menu" class="bar">
     <div class="sok"> Sök</div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="matematik.html">Matematik</a>
+    <a href="genre.html">Matematik</a>
     <a href="genre.html">Programmering</a>
     <a href="genre.html">Fysik</a>
     <a href="genre.html">Kemi</a>
@@ -28,7 +28,7 @@
     <a href="genre.html">Svenska</a>
     <a href="genre.html">Samhällskunskap</a>
 
-    <div class="log"><a href="#">Logga in/Skapa Konto</div>
+    <div class="log"><a href="#">Logga in/Skapa Konto</a></div>
 </div>
 <div class="hem"><a href="index.html"> Hem </a></div>
 <div class="tillbaka"><a href="s-genre.html"> Tillbaka</a></div>
@@ -44,34 +44,7 @@
 <div class="inlagg"><a href="thread.html">Fråga</a></div>
 <div class="inlagg"><a href="thread.html">Fråga</a></div>
 <div class="inlagg" style="margin-right:400px;"><a href="thread.html">Fråga</a></div>
-<script>
-
-    function openNav() {
-        document.getElementById("menu").style.width = "300px";
-        document.getElementById("bar").style.marginLeft = "0px";
-    }
-
-    function closeNav() {
-        document.getElementById("menu").style.width = "0";
-        document.getElementById("bar").style.marginLeft = "0";
-    }
-
-    window.onscroll = function () {
-        myFunction()
-    };
-
-    var huvud = document.getElementById("Huvud");
-    var fast = huvud.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > fast) {
-            huvud.classList.add("fast");
-        } else {
-            huvud.classList.remove("fast");
-        }
-    }
-
-</script>
+<script src="open_menu.js"></script>
 
 </body>
 </html> 

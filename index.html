@@ -27,7 +27,7 @@
 <div id="menu" class="bar">
     <div class="sok"> Sök</div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="matematik.html">Matematik</a>
+    <a href="genre.html">Matematik</a>
     <a href="genre.html">Programmering</a>
     <a href="genre.html">Fysik</a>
     <a href="genre.html">Kemi</a>
@@ -38,7 +38,7 @@
     <div class="log"><a href="#">Logga in/Skapa Konto </a></div>
 </div>
 
-<div id="kategorier" class="matematik"><a href="matematik.html">Matematik</a></div>
+<div id="kategorier" class="matematik"><a href="genre.html">Matematik</a></div>
 <div id="kategorier" class="programmering"><a href="genre.html">Programmering</a></div>
 <div id="kategorier" class="fysik"><a href="genre.html">Fysik</a></div>
 <div id="kategorier" class="kemi"><a href="genre.html">Kemi</a></div>
@@ -47,34 +47,7 @@
 <div id="kategorier" class="samhalle"><a href="genre.html">Samhälle</a></div>
 
 <div class="cookies">Denna hemsida använder kakor(cookies) för att fungera på bästa sätt!</div>
-
-<script>
-
-    function openNav() {
-        document.getElementById("menu").style.width = "300px";
-        document.getElementById("bar").style.marginLeft = "0px";
-    }
-
-    function closeNav() {
-        document.getElementById("menu").style.width = "0";
-        document.getElementById("bar").style.marginLeft = "0";
-    }
-
-    window.onscroll = function () {
-        myFunction()
-    };
-
-    var huvud = document.getElementById("Huvud");
-    var fast = huvud.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > fast) {
-            huvud.classList.add("fast");
-        } else {
-            huvud.classList.remove("fast");
-        }
-    }
-</script>
+<script src="open_menu.js"></script>
 
 </body>
 </html> 

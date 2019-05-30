@@ -11,7 +11,7 @@
 <div class="huvud" id="Huvud">
     <div class="s-bar"></div>
     <div class="s-bar"></div>
-    <p style="font-family:verdana; float:right; float:top; margin-right:-300px; font-size:10px"><a href="#">Glömt lösenord</a></p>
+    <p style="font-family:verdana,serif; float:right; margin-right:-300px; font-size:10px"><a href="#">Glömt lösenord</a></p>
 </div>
 <div id="bar">
     <span style="font-size:25px; cursor:pointer; position:fixed; margin-left:5px; margin-top:0;" onclick="openNav()">&#9776; </span>
@@ -20,7 +20,7 @@
 <div id="menu" class="bar">
     <div class="sok"> Sök</div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="matematik.html">Matematik</a>
+    <a href="genre.html">Matematik</a>
     <a href="genre.html">Programmering</a>
     <a href="genre.html">Fysik</a>
     <a href="genre.html">Kemi</a>
@@ -44,7 +44,6 @@
 <div class="upp" style="margin-top:10px;"><a href="#"> Uppgift</a></div>
 <div class="upp" style="margin-top:10px;"><a href="#"> Uppgift</a></div>
 <div class="upp" style="margin-top:10px; margin-right:20px;"><a href="#"> Uppgift</a></div>
-
 <div class="mall" style="margin-top:10px; margin-left:25%; "><a href="#"> Mall</a></div>
 <div class="mall" style="margin-top:10px;"><a href="#"> Mall</a></div>
 <div class="mall" style="margin-top:10px;"><a href="#"> Mall</a></div>
@@ -55,34 +54,7 @@
 <div class="mall" style="margin-top:10px; margin-right:20px;"><a href="#">Mall</a></div>
 
 
-<script>
-
-    function openNav() {
-        document.getElementById("menu").style.width = "300px";
-        document.getElementById("bar").style.marginLeft = "0px";
-    }
-
-    function closeNav() {
-        document.getElementById("menu").style.width = "0";
-        document.getElementById("bar").style.marginLeft = "0";
-    }
-
-    window.onscroll = function () {
-        myFunction()
-    };
-
-    const huvud = document.getElementById("Huvud");
-    const fast = huvud.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > fast) {
-            huvud.classList.add("fast");
-        } else {
-            huvud.classList.remove("fast");
-        }
-    }
-
-</script>
+<script src="open_menu.js"></script>
 
 </body>
 </html> 
